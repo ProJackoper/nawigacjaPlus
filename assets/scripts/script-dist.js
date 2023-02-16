@@ -1,2 +1,2 @@
-
+const navItems=document.querySelectorAll(".nav-items-item");navItems.forEach((e=>{const t=e.querySelector(".dropdown");e.addEventListener("click",(()=>{t.classList.toggle("display-none")}),!1),e.addEventListener("mouseout",(e=>{e.stopPropagation(),t.classList.add("display-none")}))}));
 //# sourceMappingURL=script-dist.js.map
